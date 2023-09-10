@@ -1,0 +1,10 @@
+# MLFLOW utils
+
+All this notebooks and files are complementary in order tu use mlflow with the model training part. The files that we can find are as follows:
+- get_map.py: The purpose is to compare the predicted txt bounding boxes of the .engine model, vs the ground truth and then load them to mlflow. As a result, we first need to generate the predictions in the jetson
+- mlflow_metrics.ipynb: the purpose is to analyze the metrics with matplotlib only for visualization objectives
+- test_metrics.py: the purpose is to add the metrics of a yolov7 model into mlflow
+- latency.py: the purpose is to add manualy latency values of the models to mlflow
+- utils: this is a folder with necesary files in order to run "get_map.py" file
+
+<br>
